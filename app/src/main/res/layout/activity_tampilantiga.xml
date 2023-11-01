@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tampilantiga">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        app:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/profile_icon"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/person_male_1"
+        app:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingContraints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.020"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Elmi"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintVertical_bias="0.025"
+        />
+
+
+    <TextView
+        android:id="@+id/text_spaghettiket"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:text="Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental"
+        android:textColor="#9F3513"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_steak"
+        android:layout_width="220dp"
+        android:layout_height="49dp"
+        android:text="Steak"
+        android:textColor="#9F3513"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menu_img_1"
+        android:layout_width="120dp"
+        android:layout_height="168dp"
+        android:src="@drawable/circle_cropped_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087"
+        app:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingContraints" />
+
+    <TextView
+        android:id="@+id/text_pepperoni"
+        android:layout_width="220dp"
+        android:layout_height="49dp"
+        android:text="Papperoni Pizza"
+        android:textColor="#9F3513"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_pepperoniket"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:text="Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat"
+        android:textColor="#9F3513"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menu_img_2"
+        android:layout_width="120dp"
+        android:layout_height="168dp"
+        android:src="@drawable/circle_cropped_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365"
+        app:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingContraints" />
+
+    <TextView
+        android:id="@+id/text_spaghetti"
+        android:layout_width="220dp"
+        android:layout_height="49dp"
+        android:text="Spaghetti"
+        android:textColor="#9F3513"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menu_img_3"
+        android:layout_width="120dp"
+        android:layout_height="168dp"
+        android:src="@drawable/circle_cropped_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644"
+        app:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingContraints" />
+
+    <TextView
+        android:id="@+id/text_burger"
+        android:layout_width="220dp"
+        android:layout_height="49dp"
+        android:text="Burger"
+        android:textColor="#9F3513"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_burgerket"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:text="Cocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal"
+        android:textColor="#9F3513"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menu_img_4"
+        android:layout_width="120dp"
+        android:layout_height="168dp"
+        android:src="@drawable/circle_cropped_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        app:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingContraints" />
+
+    <TextView
+        android:id="@+id/text_steakket"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:text="Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat"
+        android:textColor="#9F3513"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/menu_img_5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/add_ikon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.970"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.980"
+        app:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingContraints" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

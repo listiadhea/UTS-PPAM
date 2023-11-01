@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagepizza"
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:src="@drawable/rm_pizza_1"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="8dp"
+        android:text="Store"/>
+
+
+    <Spinner
+        android:id="@+id/menu_dropdown"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
+
+    <!--
+    <TextView
+        android:id="@+id/textBotttom"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="8dp"
+        android:text="Cibiru"/>
+        -->
+
+    <TextView
+        android:id="@+id/textfield"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="Your Name"
+        android:paddingHorizontal="8dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/textfieldtwo"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="8dp"
+        android:layout_marginTop="10dp"
+        android:hint="Please fill your name" />
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#D30F0F"
+        android:text="Submit" />
+
+
+</LinearLayout>

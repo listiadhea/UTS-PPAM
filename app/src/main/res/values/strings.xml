@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lets Eat</string>
+    <string-array name="dropdown_items">
+        <item>Cihampelas</item>
+        <item>Cibiru</item>
+    </string-array>
+
+</resources>
